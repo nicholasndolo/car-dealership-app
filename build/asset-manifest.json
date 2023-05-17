@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.47ccfaac.css",
+    "main.js": "/static/js/main.c3733190.js",
+    "static/media/banner.png": "/static/media/banner.dae0c985ab5ccccd3f73.png",
+    "static/media/bently.png": "/static/media/bently.df3d68256f72eaddb0b1.png",
+    "static/media/image1.jpg": "/static/media/image1.841a35b3d5c2187786c0.jpg",
+    "static/media/admin.jpg": "/static/media/admin.463378245ea7ae5e123e.jpg",
+    "static/media/logo.png": "/static/media/logo.feb088a09792fcc1a3e0.png",
+    "index.html": "/index.html",
+    "main.47ccfaac.css.map": "/static/css/main.47ccfaac.css.map",
+    "main.c3733190.js.map": "/static/js/main.c3733190.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.47ccfaac.css",
+    "static/js/main.c3733190.js"
+  ]
+}
