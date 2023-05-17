@@ -42,10 +42,10 @@ const Testimonials = () => {
        />
         {currentItems.map((testimonial) => (
       
-          <div className="parent">
+          <div key={testimonial.id} className="parent">
             <div className="parent-t">
                 <div>
-                    <img src={testimonial.author_avatar} alt="" className="avatar"/>
+                    <img src={testimonial.author_avatar} alt="avatar" className="avatar"/>
                 </div>
                 <div className="parent-m">
                     <div>

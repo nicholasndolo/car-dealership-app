@@ -1,7 +1,4 @@
 import React from 'react'
-// import logo from "../../assets/logo.png"
-// import {MdSearch} from "react-icons/md";
-// import "./AdminDashboard.css"
  import Header from '../AdminHeader/Header';
  import ListingTable from '../ListingTable/ListingTable';
  import Search from '../Search/Search';

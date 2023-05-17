@@ -52,6 +52,7 @@ const Categories = ({vehicleList}) => {
               }} />
               {display.map((cat)=>(
                 <motion.div className="card"  initial={{opacity:0, x: 100}}
+                key={cat.id}
                 animate={{opacity:1, x: 0}}
                 exit={{opacity:0, x: -100}}
                 transition={transition}>

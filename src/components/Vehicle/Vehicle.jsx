@@ -1,17 +1,13 @@
 import React from 'react'
 import './Vehicle.css'
 
-const Vehicle = ({key, name, price, transmission, drive, category, mileage, image}) => {
+const Vehicle = ({name, price, transmission, drive, category, mileage, image}) => {
   return (
     <div>
          <div
-            // initial={{opacity: 0, x: -100}}
-            //  transition={{...transition, duration: 3}}
-            //  whileInView={{opacity:1, x: 0}}
-            // className="col-3"
            >
             <img src={image} className="card card-img-top" alt="" style={{width: 20 + 'rem', height: 12 + 'rem'}}/>
-             <div class="card-body">
+             <div className="card-body">
                <div className="top">
                  <h4>{category}</h4>
                  <h3>{name}</h3>

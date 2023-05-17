@@ -22,25 +22,6 @@ function App() {
     .then((data) =>  setVehicleList(data))
 }, [])
 
-//   useEffect(()=> {
-//     fetch("/me").then((res) => {
-//       if(res.ok){
-//         res.json().then(user => setUser(user))
-//       }
-//     })
-// }, [])
-
-// if (!user) return <Login onLogin={setUser} />;
-
-// useEffect(() => {
-//   axios.all([
-//     axios.get('/vehicles'),
-//     axios.get('/me')
-//   ])
-//   .then(res => res[0].json());
-//   .then((data) => setVehicleList(data));
-// })
-
 function handleAddVehicle(newVehicle) {
   setVehicleList([...vehicleList, newVehicle])
 }
